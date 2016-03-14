@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A71C5A1E425ACFF1F77915AD /* Pods_QuickCam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0992063608C4ADD8BEBE369 /* Pods_QuickCam.framework */; };
+		F40DE5F81C58F4AA007D8E4D /* PhotoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40DE5F71C58F4AA007D8E4D /* PhotoTableViewController.swift */; };
+		F40DE5FA1C58F517007D8E4D /* PhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40DE5F91C58F517007D8E4D /* PhotoTableViewCell.swift */; };
+		F478BD1F1C58C4F400DB6418 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F478BD1E1C58C4F400DB6418 /* AppDelegate.swift */; };
+		F478BD241C58C4F400DB6418 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F478BD221C58C4F400DB6418 /* Main.storyboard */; };
+		F478BD261C58C4F400DB6418 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F478BD251C58C4F400DB6418 /* Assets.xcassets */; };
+		F478BD291C58C4F400DB6418 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F478BD271C58C4F400DB6418 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		50CE96309B3CA8BB6BD7E033 /* Pods-QuickCam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickCam.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuickCam/Pods-QuickCam.release.xcconfig"; sourceTree = "<group>"; };
+		A0992063608C4ADD8BEBE369 /* Pods_QuickCam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickCam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAC738A22D591B85B58737AA /* Pods-QuickCam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickCam.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuickCam/Pods-QuickCam.debug.xcconfig"; sourceTree = "<group>"; };
+		F40DE5F71C58F4AA007D8E4D /* PhotoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoTableViewController.swift; sourceTree = "<group>"; };
+		F40DE5F91C58F517007D8E4D /* PhotoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoTableViewCell.swift; sourceTree = "<group>"; };
+		F478BD1B1C58C4F400DB6418 /* QuickCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F478BD1E1C58C4F400DB6418 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F478BD231C58C4F400DB6418 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F478BD251C58C4F400DB6418 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F478BD281C58C4F400DB6418 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F478BD2A1C58C4F400DB6418 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F478BD181C58C4F400DB6418 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A71C5A1E425ACFF1F77915AD /* Pods_QuickCam.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		224F86BD351AB431EFAACC24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0992063608C4ADD8BEBE369 /* Pods_QuickCam.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E3B5B354FAE2CBC623E4F87 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DAC738A22D591B85B58737AA /* Pods-QuickCam.debug.xcconfig */,
+				50CE96309B3CA8BB6BD7E033 /* Pods-QuickCam.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F478BD121C58C4F400DB6418 = {
+			isa = PBXGroup;
+			children = (
+				F478BD1D1C58C4F400DB6418 /* QuickCam */,
+				F478BD1C1C58C4F400DB6418 /* Products */,
+				224F86BD351AB431EFAACC24 /* Frameworks */,
+				9E3B5B354FAE2CBC623E4F87 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		F478BD1C1C58C4F400DB6418 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F478BD1B1C58C4F400DB6418 /* QuickCam.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F478BD1D1C58C4F400DB6418 /* QuickCam */ = {
+			isa = PBXGroup;
+			children = (
+				F478BD1E1C58C4F400DB6418 /* AppDelegate.swift */,
+				F478BD221C58C4F400DB6418 /* Main.storyboard */,
+				F478BD251C58C4F400DB6418 /* Assets.xcassets */,
+				F478BD271C58C4F400DB6418 /* LaunchScreen.storyboard */,
+				F478BD2A1C58C4F400DB6418 /* Info.plist */,
+				F40DE5F71C58F4AA007D8E4D /* PhotoTableViewController.swift */,
+				F40DE5F91C58F517007D8E4D /* PhotoTableViewCell.swift */,
+			);
+			path = QuickCam;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F478BD1A1C58C4F400DB6418 /* QuickCam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F478BD2D1C58C4F400DB6418 /* Build configuration list for PBXNativeTarget "QuickCam" */;
+			buildPhases = (
+				D53A22DDA61125A34C0628FE /* Check Pods Manifest.lock */,
+				F478BD171C58C4F400DB6418 /* Sources */,
+				F478BD181C58C4F400DB6418 /* Frameworks */,
+				F478BD191C58C4F400DB6418 /* Resources */,
+				FC0540891456282749C6F191 /* Embed Pods Frameworks */,
+				285507089939833DDC755B9E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuickCam;
+			productName = QuickCam;
+			productReference = F478BD1B1C58C4F400DB6418 /* QuickCam.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F478BD131C58C4F400DB6418 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = AppCoda;
+				TargetAttributes = {
+					F478BD1A1C58C4F400DB6418 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = YZP52RND5S;
+					};
+				};
+			};
+			buildConfigurationList = F478BD161C58C4F400DB6418 /* Build configuration list for PBXProject "QuickCam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F478BD121C58C4F400DB6418;
+			productRefGroup = F478BD1C1C58C4F400DB6418 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F478BD1A1C58C4F400DB6418 /* QuickCam */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F478BD191C58C4F400DB6418 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F478BD291C58C4F400DB6418 /* LaunchScreen.storyboard in Resources */,
+				F478BD261C58C4F400DB6418 /* Assets.xcassets in Resources */,
+				F478BD241C58C4F400DB6418 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		285507089939833DDC755B9E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickCam/Pods-QuickCam-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D53A22DDA61125A34C0628FE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FC0540891456282749C6F191 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickCam/Pods-QuickCam-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F478BD171C58C4F400DB6418 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40DE5FA1C58F517007D8E4D /* PhotoTableViewCell.swift in Sources */,
+				F40DE5F81C58F4AA007D8E4D /* PhotoTableViewController.swift in Sources */,
+				F478BD1F1C58C4F400DB6418 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F478BD221C58C4F400DB6418 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F478BD231C58C4F400DB6418 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F478BD271C58C4F400DB6418 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F478BD281C58C4F400DB6418 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F478BD2B1C58C4F400DB6418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F478BD2C1C58C4F400DB6418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F478BD2E1C58C4F400DB6418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAC738A22D591B85B58737AA /* Pods-QuickCam.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = QuickCam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appcoda.QuickCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		F478BD2F1C58C4F400DB6418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50CE96309B3CA8BB6BD7E033 /* Pods-QuickCam.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = QuickCam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appcoda.QuickCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F478BD161C58C4F400DB6418 /* Build configuration list for PBXProject "QuickCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F478BD2B1C58C4F400DB6418 /* Debug */,
+				F478BD2C1C58C4F400DB6418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F478BD2D1C58C4F400DB6418 /* Build configuration list for PBXNativeTarget "QuickCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F478BD2E1C58C4F400DB6418 /* Debug */,
+				F478BD2F1C58C4F400DB6418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F478BD131C58C4F400DB6418 /* Project object */;
+}

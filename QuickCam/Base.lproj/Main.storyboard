@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="2vE-TT-ILx">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--QuickCam-->
+        <scene sceneID="1Ue-7I-iNK">
+            <objects>
+                <tableViewController id="FeX-1t-LBd" customClass="PhotoTableViewController" customModule="QuickCam" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="150" sectionHeaderHeight="28" sectionFooterHeight="28" id="zxw-so-EYP">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PhotoCell" rowHeight="150" id="4XI-ZH-KjC" customClass="PhotoTableViewCell" customModule="QuickCam" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="92" width="600" height="150"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="4XI-ZH-KjC" id="Pj2-cC-z3g">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="149.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="EV7-0Q-eTJ">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="149.5"/>
+                                        </imageView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="EV7-0Q-eTJ" secondAttribute="trailing" id="HMn-cp-34G"/>
+                                        <constraint firstItem="EV7-0Q-eTJ" firstAttribute="top" secondItem="Pj2-cC-z3g" secondAttribute="top" id="dkG-E0-dDj"/>
+                                        <constraint firstItem="EV7-0Q-eTJ" firstAttribute="leading" secondItem="Pj2-cC-z3g" secondAttribute="leading" id="rue-MV-TO4"/>
+                                        <constraint firstAttribute="bottom" secondItem="EV7-0Q-eTJ" secondAttribute="bottom" id="vCK-1M-OGZ"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="photoImageView" destination="EV7-0Q-eTJ" id="yc5-pt-3Es"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="FeX-1t-LBd" id="xIW-R6-qsw"/>
+                            <outlet property="delegate" destination="FeX-1t-LBd" id="9gg-Uc-ZUH"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="QuickCam" id="W1C-Q0-Srp">
+                        <barButtonItem key="rightBarButtonItem" image="camera-icon" id="Y2b-Ht-prP">
+                            <color key="tintColor" red="0.17254901959999999" green="0.24313725489999999" blue="0.31372549020000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="showCamera" destination="FeX-1t-LBd" id="Bnm-j2-gKe"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="emptyBackgroundView" destination="xsy-Iu-Ear" id="mai-Xf-wxM"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UBE-p0-Jo4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <view contentMode="scaleToFill" id="xsy-Iu-Ear">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nothing" translatesAutoresizingMaskIntoConstraints="NO" id="MvS-op-XDN">
+                            <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="MvS-op-XDN" firstAttribute="leading" secondItem="xsy-Iu-Ear" secondAttribute="leading" id="T25-ut-7z4"/>
+                        <constraint firstItem="MvS-op-XDN" firstAttribute="top" secondItem="xsy-Iu-Ear" secondAttribute="top" id="hTt-Ni-dGG"/>
+                        <constraint firstAttribute="bottom" secondItem="MvS-op-XDN" secondAttribute="bottom" id="kTz-7l-hti"/>
+                        <constraint firstAttribute="trailing" secondItem="MvS-op-XDN" secondAttribute="trailing" id="vI3-is-fTp"/>
+                    </constraints>
+                </view>
+            </objects>
+            <point key="canvasLocation" x="1241" y="-317"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="OQp-eb-Re2">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2vE-TT-ILx" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="0aY-ls-Gwq">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="FeX-1t-LBd" kind="relationship" relationship="rootViewController" id="r1G-fB-3z9"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4tS-Z4-NUP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="429" y="-317"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="camera-icon" width="22" height="22"/>
+        <image name="nothing" width="750" height="1334"/>
+    </resources>
+</document>
